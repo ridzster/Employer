@@ -162,9 +162,10 @@ dl, dt, dd, ol, ul, li {
 
 
 body {
-	line-height: 1.5;
+	line-height: 1.8;
 	color: #555;
 	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
 }
 
 a {
@@ -3563,7 +3564,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 .content-wrap {
 	position: relative;
-	padding: 80px 0;
+	padding: 60px 0;
 }
 
 #content .container { position: relative; }
@@ -7543,7 +7544,7 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .feature-box h3 {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -8146,7 +8147,7 @@ body:not(.device-touch) .button.button-full strong {
 .process-steps li h5 {
 	margin: 15px 0 0 0;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 .process-steps li.active h5,
@@ -11277,7 +11278,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 /* Heading Block - with Subtitle
 -----------------------------------------------------------------*/
 
-.heading-block { margin-bottom: 50px; }
+.heading-block { margin-bottom: 20px; }
 
 .heading-block h1,
 .heading-block h2,
@@ -11429,8 +11430,9 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 
 .title-center h1,
 .title-center h2,
-.title-center h3 { padding: 0 15px; }
-
+.title-center h3 { 
+	padding: 0 15px; 
+}
 .title-center h4,
 .title-center h5,
 .title-center h6 { padding: 0 10px; }
@@ -13741,4 +13743,11 @@ body:not(.no-transition) #wrapper,
 	text-shadow: none !important;
 }
 
+/* ----------------------------------------------------------------
+	Panel body section
+-----------------------------------------------------------------*/
 
+.panel-body{
+	text-align: justify;
+	padding-bottom: 30px;
+}
