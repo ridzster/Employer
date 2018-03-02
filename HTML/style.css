@@ -11215,7 +11215,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 	text-transform: none;
 }
 
-.heading-block h1 { font-size: 32px; }
+.heading-block h1 { font-size: 50px; }
 
 .heading-block h2 { font-size: 30px; }
 
